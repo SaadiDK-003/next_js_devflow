@@ -4,10 +4,10 @@ const ROUTES = {
   SIGN_UP: "/sign-up",
   COMMUNITY: "/community",
   COLLECTION: "/collection",
-  JOBS: "/find-jobs",
+  JOBS: "/jobs",
   TAGS: "/tags",
   PROFILE: "/profile",
-  ASK_QUESTION: "/ask-a-question",
+  ASK_QUESTION: "/ask-question",
 };
 
 export default ROUTES;
