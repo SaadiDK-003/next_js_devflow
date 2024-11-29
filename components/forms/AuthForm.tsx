@@ -15,7 +15,6 @@ import { Button } from "@/components/ui/button";
 import {
   Form,
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,
@@ -43,7 +42,9 @@ const AuthForm = <T extends FieldValues>({
     defaultValues: defaultValues as DefaultValues<T>,
   });
 
-  const handleSubmit: SubmitHandler<T> = async () => {};
+  const handleSubmit: SubmitHandler<T> = async () => {
+    // Auth Work here...
+  };
 
   const buttonText = formType === "SIGN_IN" ? "Sign in" : "Sign Up";
 
