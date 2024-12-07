@@ -26,7 +26,7 @@ const NavLinks = ({ isMobileNav = false }: { isMobileNav?: boolean }) => {
           <Link
             key={i}
             href={link.route}
-            className={`flex items-center gap-4 bg-transparent p-4 ${cn(isActive ? "primary-gradient rounded-lg text-light-900" : "text-dark300_light900")}`}
+            className={`flex flex-1 items-center gap-4 bg-transparent p-4 ${cn(isActive ? "primary-gradient rounded-lg text-light-900" : "text-dark300_light900")}`}
           >
             <Image
               src={link.imgURL}

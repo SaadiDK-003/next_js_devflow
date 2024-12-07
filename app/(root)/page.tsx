@@ -7,7 +7,7 @@ const Home = async () => {
   // console.log(session?.user);
   return (
     <>
-      <h1 className="mt-5 text-center text-3xl font-bold text-primary-500">
+      <h1 className="mt-5 text-3xl font-bold text-primary-500">
         Assalam-o-Alikum, Welcome {session?.user?.name ?? "User"}.
       </h1>
       {session?.user ? (
